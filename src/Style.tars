@@ -1,0 +1,11 @@
+
+module Demo
+{
+
+interface Style
+{
+  int test();
+  int hello(string req, out string res);
+};
+
+}; 
