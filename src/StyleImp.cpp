@@ -22,10 +22,9 @@ int StyleImp::hello(const string &req, string &res, tars::TarsCurrentPtr current
 	if ("" == req) {
 		res = "Hello TARS!";
 	}
-	else if ( "Bye" == req) {
+	else if ("Bye" == req) {
 		res = "Bye~" ;
-	} else
-	{
+	} else {
 		res = (req +", Hello TARS!");
 	}
 	
